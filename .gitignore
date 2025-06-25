@@ -1,0 +1,52 @@
+# Python
+*.pyc
+__pycache__/
+.Python
+.env/
+.venv/
+env/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+/media/
+/static/
+
+# IDEs and OS
+.DS_Store # macOS
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.nox/
+
+# Pytest / Tox
+.pytest_cache/
+.tox/
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Development and temporary files
+*.log
+*.pot
+*.mo
+*.swp
+*~
+*.bak
+.ipynb_checkpoints/ # Jupyter notebooks
+
+# For security: secrets, environment variables
+*.env
+.env.*
+secret_key.py # If you store your secret key separately
